@@ -27,7 +27,7 @@ while i==0:
             print('Please say clearly!!')
             
 if (float(l/(time_2-time_1)))>3: print("Your speech is faster than usual")
-elif(float(l/(time_2-time_1)))<1: print("Your speech was slower than usual")
+elif(0<float(l/(time_2-time_1)))<1: print("Your speech was slower than usual")
 else: print("You spoke confidently!")
 
 
